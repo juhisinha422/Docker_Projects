@@ -51,5 +51,40 @@ Hello, Docker!
 ```bash
 git clone https://github.com/juhisinha422/Docker_Projects.git
 cd Docker_Projects
+```
+
+### 2️⃣ Build the Docker image
+
+```bash
+docker build -t flask-app .
+```
+
+### 3️⃣ Run the Docker container
+
+```bash 
+docker run -p 5000:5000 flask-app
+```
+
+### 4️⃣ Access the application
+
+Open your browser and visit:
+```bash
+http://localhost:5000
+
+or (if running on EC2):
+
+http://<EC2_PUBLIC_IP>:5000
+```
+
+### Optional
+
+🧪 Test Using Curl
+```bash
+curl http://localhost:5000
+```
+
+Expected output: Hello, Docker!
+
+
 
 
