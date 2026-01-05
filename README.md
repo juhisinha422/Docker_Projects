@@ -30,8 +30,8 @@ Docker_Projects/
 - Exposed Port: **5000**
 
 When the application is running, it returns:
-
 Hello, Docker!
+
 ---
 
 ## 🐳 Dockerfile Explanation
